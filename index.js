@@ -10,7 +10,7 @@ $(document).ready(function () {
       $.ajax({
         method: "POST",
         url: "https://5d76bf96515d1a0014085cf9.mockapi.io/order",
-        data: { username: username, password: "password" },
+        data: { "username": username, "password": password },
       })
         .done(function (msg) {
           alert("Login Successful");
