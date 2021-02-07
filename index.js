@@ -9,7 +9,7 @@ $(document).ready(function () {
     if (username == password) {
       $.ajax({
         method: "POST",
-        url: "https://5d76bf96515d1a0014085cf9.mockapi.io/order",
+        url: "https://5fc1a1c9cb4d020016fe6b07.mockapi.io/api/v1/login",
         data: { "username": username, "password": password },
       })
         .done(function (msg) {
